@@ -1,0 +1,9 @@
+type Actor {
+    actorId: ID!
+    firstName: String
+    lastName: String
+}
+
+type Query {
+    allActors: [Actor]
+}
